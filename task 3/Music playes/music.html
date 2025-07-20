@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Music Player</title>
+  <title>Music Player with Playlist</title>
   <link rel="stylesheet" href="music.css">
 </head>
 <body>
@@ -12,9 +12,10 @@
     <h1>Made By Saumya Bari</h1>
   </header>
 
-  <!-- Main Player -->
+  <!-- Main Content -->
   <main>
     <div class="player">
+      <!-- Song Info -->
       <div class="song-info">
         <h2 id="title">Song Title</h2>
         <p id="artist">Artist Name</p>
@@ -29,7 +30,7 @@
         <button id="play" onclick="playPause()">▶</button>
         <button onclick="nextSong()">⏭</button>
       </div>
-      
+
       <!-- Progress -->
       <input type="range" id="progress" min="0" value="0" step="1">
       <div class="time">
@@ -40,12 +41,18 @@
       <!-- Volume -->
       <label for="volume">Volume</label>
       <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+
+      <!-- Playlist -->
+      <div class="playlist">
+        <h3>Playlist</h3>
+        <ul id="playlist"></ul>
+      </div>
     </div>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>Project Assigned By CodeAlpha</p>
+    <p>Project assigned by CodeAlpha</p>
   </footer>
 
   <script src="music.js"></script>
