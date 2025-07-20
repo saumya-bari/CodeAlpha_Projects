@@ -10,9 +10,9 @@ const playlistEl = document.getElementById('playlist');
 
 // Playlist Array
 const songs = [
-  { title: "Mood", artist: "24kGoldn ft. Iann Dior", src: "music/song1.mp3" },
-  { title: "Tomato Tomato", artist: "Jaxs", src: "music/song2.mp3" },
-  { title: "Song 3", artist: "Artist 3", src: "music/song3.mp3" }
+  { title: "Mood", artist: " 24kGoldn ft. Iann Dior", src: "music/song1.mp3" },
+  { title: "PUT4 RARA, PUT MEXICANA[Tomato Tomato]", artist: "DJ Jeeh FDC, MC Menor MT, Yuri Redicopa e MC Pelé", src: "music/song2.mp3" },
+  { title: "Childhood", artist: "Rauf & Faik", src: "music/song3.mp3" }
 ];
 
 let currentSong = 0;
